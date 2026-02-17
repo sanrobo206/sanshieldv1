@@ -19,7 +19,7 @@ jobs:
       - run: bun install
       - run: bun run build
       - name: Add CNAME file
-        run: echo "sanshield.org" > ./dist/CNAME
+        run: echo "www.sanshield.org" > ./dist/CNAME
 
       - uses: actions/upload-pages-artifact@v3
         with:
